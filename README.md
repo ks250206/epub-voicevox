@@ -1,6 +1,6 @@
 # epub-voicevox
 
-Rust 製の TUI EPUB リーダー（crates.io パッケージ名: `epub-voicevox`、コマンド名: `bk`）。ターミナル上で EPUB を読み、VOICEVOX による音声読み上げと読み上げ位置のハイライトをサポートする。
+Rust 製の TUI EPUB リーダー。ターミナル上で EPUB を読み、VOICEVOX による音声読み上げと読み上げ位置のハイライトをサポートする。
 
 ## 機能
 
@@ -22,12 +22,8 @@ Rust 製の TUI EPUB リーダー（crates.io パッケージ名: `epub-voicevox
 ## クイックスタート
 
 ```bash
-# ビルド（リポジトリ内）
+# ビルド
 cargo build --release
-
-# crates.io から（公開後）
-cargo install epub-voicevox
-```
 
 # VOICEVOX をコンテナで起動（just 使用）
 just up
