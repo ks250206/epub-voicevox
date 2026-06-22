@@ -1,0 +1,29 @@
+# Rust
+/target/
+**/*.rs.bk
+
+# ビルド成果物
+/dist/
+*.exe
+*.pdb
+
+# サンプル・生成物
+/samples/
+/out.wav
+*.wav
+
+# OS
+.DS_Store
+Thumbs.db
+
+# エディタ
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 環境・ログ
+.env
+.env.*
+*.log
